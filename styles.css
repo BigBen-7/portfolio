@@ -1,0 +1,42 @@
+.body{
+    margin: 0;
+}
+.container{
+    width: 98vw;
+    height: 100vh;
+    font-family: Quicksand, san-seriff;
+    font-weight: bold;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 100px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ .container div{
+     padding: 10px;
+     border: 1px solid #000000;
+ }  
+ .header{
+     grid-column-start: 1;
+     grid-column-end: 4;
+     background-color: #08812a;
+     
+ }
+ .content-large{
+     grid-row-start: 2;
+     grid-row-end: span 2; 
+     grid-column-start: 1;
+     grid-column-end: 3;
+     background-image: Demon slayer.png;
+ }
+ .mess{
+    grid-column: 1 / span 3
+ }
+ .content-small{
+background-color: rgb(240, 234, 50);
+ }
+ .mess{
+     background-color: rgb(33, 20, 213);
+ }
